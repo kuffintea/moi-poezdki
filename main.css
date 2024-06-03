@@ -1,224 +1,295 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./fonts/Inter-Thin.woff") format("woff");
+  src: url("./fonts/Inter-Thin.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  src: url("./fonts/Inter-ExtraLight.woff") format("woff");
+  src: url("./fonts/Inter-ExtraLight.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./fonts/Inter-Light.woff") format("woff");
+  src: url("./fonts/Inter-Light.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Inter-Regular.woff") format("woff");
+  src: url("./fonts/Inter-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/Inter-Medium.woff") format("woff");
+  src: url("./fonts/Inter-Medium.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/Inter-SemiBold.woff") format("woff");
+  src: url("./fonts/Inter-SemiBold.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/Inter-Bold.woff") format("woff");
+  src: url("./fonts/Inter-Bold.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./fonts/Inter-ExtraBold.woff") format("woff");
+  src: url("./fonts/Inter-ExtraBold.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./fonts/Inter-Black.woff") format("woff");
+  src: url("./fonts/Inter-Black.woff2") format("woff2");
+  font-display: swap;
+}
 ::-webkit-scrollbar {
-    width: 5px;
-    height: 11px;
+  width: 5px;
+  height: 11px;
 }
 ::-webkit-scrollbar-button {
-    width: 5px;
-    height: 0px;
+  width: 5px;
+  height: 0px;
 }
 ::-webkit-scrollbar-corner {
-    background: transparent;
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(26 32 36 / 20%);
-    border: 0 solid transparent;
-    border-radius: 50px;
+  background: rgb(26 32 36 / 20%);
+  border: 0 solid transparent;
+  border-radius: 50px;
 }
 .g-0 {
-    --bs-gutter-x: 0;
-    --bs-gutter-y: 0;
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
 }
 .hidden {
-    visibility: hidden;
+  visibility: hidden;
 }
 @media (min-width: 1200px) {
-    .w-xl-85 {
-        width: 85%;
-    }
+  .w-xl-85 {
+    width: 85%;
+  }
 }
 @media (max-width: 992px) {
-    .tab-content {
-        margin-top: 130px !important;
-    }
+  .tab-content {
+    margin-top: 130px !important;
+  }
 }
 @media (max-width: 415px) {
-    .tab-content {
-        margin-top: 197px !important;
-    }
+  .tab-content {
+    margin-top: 197px !important;
+  }
 }
 #app {
-    font-family: Inter, sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    color: #252C32;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #252c32;
 }
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    border-bottom: 1px solid #DDE1E4;
-    box-shadow: 0 4px 24px rgb(0 0 0 / 12%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  border-bottom: 1px solid #dde1e4;
+  box-shadow: 0 4px 24px rgb(0 0 0 / 12%);
 }
 .nav .nav-link {
-    padding: 19.5px 12px;
-    color: #252C32;
-    border-bottom: 2px solid #FFFFFF;
+  padding: 19.5px 12px;
+  color: #252c32;
+  border-bottom: 2px solid #ffffff;
 }
 .nav .nav-link.active {
-    font-weight: 700;
-    box-shadow: 0 1px #4094F7;
+  font-weight: 700;
+  box-shadow: 0 1px #4094f7;
 }
 .log-link {
-    gap: 16px;
-    color: #0E73F6;
-    text-decoration: none;
-    padding: 20px 16px;
-    border-bottom: 1px solid #FFFFFF;
+  gap: 16px;
+  color: #0e73f6;
+  text-decoration: none;
+  padding: 20px 16px;
+  border-bottom: 1px solid #ffffff;
 }
 .log-link span {
-    border-bottom: 1px dashed #DDE1E4;
+  border-bottom: 1px dashed #dde1e4;
 }
 .tab-content {
-    margin-top: 65px;
+  margin-top: 65px;
 }
 .tab-heading-container {
-    padding: 18px 16px 14px 16px;
-    gap: 24px;
+  padding: 18px 16px 14px 16px;
+  gap: 24px;
 }
 .tab-heading {
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: -1.4%;
+  font-weight: 600;
+  line-height: 24px;
 }
 .btn-add {
-    background-color: #4094F7;
-    color: #F6F8F9;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-    gap: 6px;
+  background-color: #4094f7;
+  color: #f6f8f9;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  gap: 6px;
 }
 .form-label {
-    gap: 8px;
+  gap: 8px;
 }
 .form-control {
-    border: 1px solid #DDE2E4;
-    border-right: none;
-    border-radius: 6px 0 0 6px;
-    padding: 4px 32px 4px 12px;
-    color: #252C32;
-    font-size: 14px;
-    line-height: 24px;
+  border: 1px solid #dde2e4;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  padding: 4px 32px 4px 12px;
+  color: #252c32;
+  font-size: 14px;
+  line-height: 24px;
 }
 .form-control::placeholder {
-    color: #9AA6AC;
+  color: #9aa6ac;
 }
 .form-container .btn-input {
-    background-color: #FFFFFF;
-    padding: 4px 0;
-    border: 1px solid #DDE2E4;
-    border-left: none;
-    border-right: none;
-    height: 34px;
-    cursor: pointer;
+  background-color: #ffffff;
+  padding: 4px 0;
+  border: 1px solid #dde2e4;
+  border-left: none;
+  border-right: none;
+  height: 34px;
+  cursor: pointer;
 }
 .form-container .btn-input:last-child {
-    border-right:  1px solid #DDE2E4;
-    border-radius: 0 6px 6px 0;
-    padding-right: 4px;
+  border-right: 1px solid #dde2e4;
+  border-radius: 0 6px 6px 0;
+  padding-right: 4px;
 }
 .form-container input:focus {
-    box-shadow: none;
-    border-color: #DDE2E4;
+  box-shadow: none;
+  border-color: #dde2e4;
 }
 .btn-clear {
-    color: #4094F7;
-    font-size: 12px;
-    line-height: 16px;
-    text-decoration: none;
+  color: #4094f7;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: none;
 }
 .btn-clear span {
-    border-bottom: 1px solid rgb(64 148 247 / 20%);
+  border-bottom: 1px solid rgb(64 148 247 / 20%);
 }
 .progress {
-    margin: 7px 0;
-    height: 2px;
-    border-radius: 2px;
-    background-color: #D7EDFF;
+  margin: 7px 0;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #d7edff;
 }
 .progress-bar {
-    background-color: #4094F7;
+  background-color: #4094f7;
 }
 .content-container {
-    background-color: #F6FCFF;
+  background-color: #f6fcff;
 }
 .card {
-    border: 1px solid #FFFFFF;
-    border-radius: 6px;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
 }
 .card:hover {
-    border-color: #9BCFFD;
+  border-color: #9bcffd;
 }
 .card:hover .text-id span {
-    border-color: #FFFFFF;
+  border-color: #ffffff;
 }
 .card:hover .btn-tooltip {
-    visibility: visible;
+  visibility: visible;
 }
 .trip-table {
-    color: #191C30;
+  color: #191c30;
 }
 .trip-table-item:not(:last-child) {
-    padding-right: 28px;
+  padding-right: 28px;
 }
 .trip-table-heading {
-    font-size: 12px;
-    line-height: 16px;
-    color: #84919A;
-    text-wrap: nowrap;
+  font-size: 12px;
+  line-height: 16px;
+  color: #84919a;
+  text-wrap: nowrap;
 }
 .text-id {
-    color: #0E73F6;
-    text-decoration: none;
+  color: #0e73f6;
+  text-decoration: none;
 }
 .text-id span {
-    border-bottom: 1px solid #D9EAFD;
+  border-bottom: 1px solid #d9eafd;
 }
 .trip-table-destination {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .btn-tooltip {
-    visibility: hidden;
-    position: relative;
-    display: inline-block;
+  visibility: hidden;
+  position: relative;
+  display: inline-block;
 }
 .btn-tooltip:hover .tooltiptext {
-    visibility: visible;
+  visibility: visible;
 }
 .tooltiptext {
-    visibility: hidden;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: start;
-    width: 219px;
-    background-color: #303940;
-    color: #F6F8F9;
-    text-align: center;
-    border-radius: 4px;
-    padding: 4px 8px;
-    position: absolute;
-    bottom: 30px;
-    right: 0;
-    left: 0;
+  visibility: hidden;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: start;
+  width: 219px;
+  background-color: #303940;
+  color: #f6f8f9;
+  text-align: center;
+  border-radius: 4px;
+  padding: 4px 8px;
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  left: 0;
 }
 .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 7%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: black transparent transparent transparent;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 7%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
 }
 .btn-docs {
-    background-color: #EEF0F2;
-    color: #5B6871;
-    padding: 0.25rem 0.5rem;
-    border-radius: 10px;
+  background-color: #eef0f2;
+  color: #5b6871;
+  padding: 0.25rem 0.5rem;
+  border-radius: 10px;
 }
