@@ -1,0 +1,224 @@
+::-webkit-scrollbar {
+    width: 5px;
+    height: 11px;
+}
+::-webkit-scrollbar-button {
+    width: 5px;
+    height: 0px;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(26 32 36 / 20%);
+    border: 0 solid transparent;
+    border-radius: 50px;
+}
+.g-0 {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+.hidden {
+    visibility: hidden;
+}
+@media (min-width: 1200px) {
+    .w-xl-85 {
+        width: 85%;
+    }
+}
+@media (max-width: 992px) {
+    .tab-content {
+        margin-top: 130px !important;
+    }
+}
+@media (max-width: 415px) {
+    .tab-content {
+        margin-top: 197px !important;
+    }
+}
+#app {
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #252C32;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    border-bottom: 1px solid #DDE1E4;
+    box-shadow: 0 4px 24px rgb(0 0 0 / 12%);
+}
+.nav .nav-link {
+    padding: 19.5px 12px;
+    color: #252C32;
+    border-bottom: 2px solid #FFFFFF;
+}
+.nav .nav-link.active {
+    font-weight: 700;
+    box-shadow: 0 1px #4094F7;
+}
+.log-link {
+    gap: 16px;
+    color: #0E73F6;
+    text-decoration: none;
+    padding: 20px 16px;
+    border-bottom: 1px solid #FFFFFF;
+}
+.log-link span {
+    border-bottom: 1px dashed #DDE1E4;
+}
+.tab-content {
+    margin-top: 65px;
+}
+.tab-heading-container {
+    padding: 18px 16px 14px 16px;
+    gap: 24px;
+}
+.tab-heading {
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -1.4%;
+}
+.btn-add {
+    background-color: #4094F7;
+    color: #F6F8F9;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    gap: 6px;
+}
+.form-label {
+    gap: 8px;
+}
+.form-control {
+    border: 1px solid #DDE2E4;
+    border-right: none;
+    border-radius: 6px 0 0 6px;
+    padding: 4px 32px 4px 12px;
+    color: #252C32;
+    font-size: 14px;
+    line-height: 24px;
+}
+.form-control::placeholder {
+    color: #9AA6AC;
+}
+.form-container .btn-input {
+    background-color: #FFFFFF;
+    padding: 4px 0;
+    border: 1px solid #DDE2E4;
+    border-left: none;
+    border-right: none;
+    height: 34px;
+    cursor: pointer;
+}
+.form-container .btn-input:last-child {
+    border-right:  1px solid #DDE2E4;
+    border-radius: 0 6px 6px 0;
+    padding-right: 4px;
+}
+.form-container input:focus {
+    box-shadow: none;
+    border-color: #DDE2E4;
+}
+.btn-clear {
+    color: #4094F7;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+}
+.btn-clear span {
+    border-bottom: 1px solid rgb(64 148 247 / 20%);
+}
+.progress {
+    margin: 7px 0;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #D7EDFF;
+}
+.progress-bar {
+    background-color: #4094F7;
+}
+.content-container {
+    background-color: #F6FCFF;
+}
+.card {
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+}
+.card:hover {
+    border-color: #9BCFFD;
+}
+.card:hover .text-id span {
+    border-color: #FFFFFF;
+}
+.card:hover .btn-tooltip {
+    visibility: visible;
+}
+.trip-table {
+    color: #191C30;
+}
+.trip-table-item:not(:last-child) {
+    padding-right: 28px;
+}
+.trip-table-heading {
+    font-size: 12px;
+    line-height: 16px;
+    color: #84919A;
+    text-wrap: nowrap;
+}
+.text-id {
+    color: #0E73F6;
+    text-decoration: none;
+}
+.text-id span {
+    border-bottom: 1px solid #D9EAFD;
+}
+.trip-table-destination {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.btn-tooltip {
+    visibility: hidden;
+    position: relative;
+    display: inline-block;
+}
+.btn-tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.tooltiptext {
+    visibility: hidden;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: start;
+    width: 219px;
+    background-color: #303940;
+    color: #F6F8F9;
+    text-align: center;
+    border-radius: 4px;
+    padding: 4px 8px;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    left: 0;
+}
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 7%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+.btn-docs {
+    background-color: #EEF0F2;
+    color: #5B6871;
+    padding: 0.25rem 0.5rem;
+    border-radius: 10px;
+}
